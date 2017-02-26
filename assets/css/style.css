@@ -1,0 +1,44 @@
+body {
+	background-image: url("file:///Users/dannyjwkim/Documents/Bootcamp/homework/Week-4-Game-Crystals/assets/images/field.jpg");
+}
+
+.jumbotron {
+	background-image: url("file:///Users/dannyjwkim/Documents/Bootcamp/homework/Week-4-Game-Crystals/assets/images/field.jpg");
+}
+
+img {
+	width: 24%;
+	cursor: pointer;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+.targetScore {
+	border: 1px solid black;
+	width: 50 %;
+	height: 50px;
+	background: lightgreen;
+	padding: 3px;
+}
+
+.score {
+	border: 1px solid black;
+	width: 50 %;
+	height: 50px;
+	background: tan;
+	padding: 3px;
+}
+
+#wins {
+	font-size: 24px;
+}
+
+#losses {
+	font-size: 24px;
+}
+
+ul {
+	font-size: 24px;
+}
