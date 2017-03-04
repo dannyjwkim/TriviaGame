@@ -75,6 +75,7 @@ var remainingQuestions = [
       if ( timeRemaining <= 0 ) {
         unanswered.push( questionObject );
         console.log( 'Time is UP' );
+        // $("#question-container").html("<img src ='" + unanswered.image + "'>");
         askQuestion();
       } else {
         timeRemaining = timeRemaining - 1;
@@ -110,13 +111,17 @@ var remainingQuestions = [
 
         choice.click( function () {
           if ( this.innerHTML === questionObject.correct ) {
-            console.log( "YAY" );
+            console.log( "Correct!" );
             rightAnswers.push( questionObject );
+            // $("#question-container").html("<img src ='" + "rightAnswers[0].image" + "'>");
+
             askQuestion();
           } 
           else {
-            console.log( "boo!" );
+            console.log( "Nope!" );
             wrongAnswers.push( questionObject );
+            // $("#question-container").html("<img src ='" + "wrongAnswers[0].image" + "'>");
+
             askQuestion();
           }
         } );
