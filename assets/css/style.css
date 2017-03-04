@@ -1,11 +1,11 @@
-body {
+/*body {
 	background-image: url("file:///Users/dannyjwkim/Documents/Bootcamp/homework/Week-4-Game-Crystals/assets/images/field.jpg");
 }
 
 .jumbotron {
 	background-image: url("file:///Users/dannyjwkim/Documents/Bootcamp/homework/Week-4-Game-Crystals/assets/images/field.jpg");
 }
-
+*/
 img {
 	width: 24%;
 	cursor: pointer;
