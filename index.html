@@ -2,29 +2,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Trivia Game</title>
+	<title>Oscars Trivia Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">
 	
 </head>
 <body>
 
-<div class="jumbotron">
+<div class="container">
 
-<div class="container content">
+<div class="jumbotron content text-center">
 
-	<h1>Oscars Trivia Game</h1>
+	<h1>OSCARS TRIVIA</h1>
   
-  <div id="timer">
-    <h3 id="timer">Time Remaining: <span id="time-remaining"></span></h3>
+  <div class="well well-sm" id="timer">
+    <h2>Time Remaining: <span id="time-remaining">10</span></h2>
   </div>
 
-  <div id="asked-question"></div>
-  
-  <div id="containerForChoiceOptions">
-  </div>
+	<div class="container well">
+
+	  <div class="well well-sm" id="asked-question"></div>
+	  
+	  <div class="well well-sm" id="choices"></div>
+
+  	<!-- <div class="well well-sm"><img src="assets/images/shrek.gif" alt="Cate Blanchett face"></div> -->
+
+	</div>
+
+<button class="btn btn-primary start">Start Game</button>
+
+<button class="btn btn-primary reset">Reset Button</button>
 
 </div>
 
