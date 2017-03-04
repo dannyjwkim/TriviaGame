@@ -18,7 +18,6 @@ var remainingQuestions = [
       answer: [ "Marisa Tomei", "Whoopi Goldberg", "Gwyneth Paltrow", "Renee Zellweger" ],
       correct: "Marisa Tomei",
       image: "../images/tomei.gif"
-
     },
     {
       question: "Star Wars: The Force Awakens is the highest domestic grossing film of all time. What movie is the highest domestic grossing film of all time, but adjusted for inflation?",
@@ -93,9 +92,7 @@ var remainingQuestions = [
   function askQuestion() {
     if ( remainingQuestions.length <= 0 ) {
       clearTimeout(timer);
-      console.log (" you got correct: " + rightAnswers.length);
-      console.log (" you got wrong: " + wrongAnswers.length);
-      console.log (" you got unanswered: " + unanswered.length);
+      $("#question-container").html("Correct: " + rightAnswers.length + "<br>" + " Wrong: " + wrongAnswers.length + "<br>" + "Unanswered: " + unanswered.length);
     } 
     else {
       startTimer();
@@ -112,7 +109,6 @@ var remainingQuestions = [
         $( '#choices' ).append( choice );
 
         choice.click( function () {
-          //console.log("I GUESSED "+ this.innerHTML);
           if ( this.innerHTML === questionObject.correct ) {
             console.log( "YAY" );
             rightAnswers.push( questionObject );

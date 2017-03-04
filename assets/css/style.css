@@ -15,10 +15,10 @@ body {
 
 .well {
 	background: #D6C98A;
-	border-style: solid;
-  border-color: black;
-}
-
+	border-style: none;
+/*  border-color: black;
+*/}
+/*
 .questions{
 	display: none;
 }
@@ -37,7 +37,7 @@ body {
 .output{
 	display: none;
 }
-
+*/
 .content .reset{
 	display: none;
 }
