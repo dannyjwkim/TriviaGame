@@ -16,32 +16,32 @@ body {
 .well {
 	background: #D6C98A;
 	border-style: none;
-/*  border-color: black;
-*/}
-/*
-.questions{
-	display: none;
 }
 
-.questions p{
-	border:1px solid rgba(0, 0, 0, 0.4);
-	border-radius: 4px;
-	padding: 0.5rem;
-}
-
-.questions p:hover{
-	background: rgba(0, 0, 0, 0.3);
-	cursor: pointer;
-}
-
-.output{
-	display: none;
-}
-*/
-.content .reset{
+#asked-question{
 	display: none;
 }
 
 #choices {
+	display: none;
 	cursor: pointer;
 }
+
+#start {
+	background-color: #c5b358;
+}
+
+#timer {
+	display: none;
+}
+
+
+
+.output{
+	display: none;
+}
+
+.content .reset{
+	display: none;
+}
+
