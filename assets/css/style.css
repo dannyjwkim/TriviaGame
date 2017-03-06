@@ -8,40 +8,27 @@ body {
 	height: 100%;
 }
 
+img {
+	max-width: 100%;
+}
+
 .jumbotron {
 	background-color: #c5b358;
 	font-family: 'Nunito', sans-serif; font-size: 20px;
 }
 
-.well {
-	background: #D6C98A;
-	border-style: none;
-}
-
-#asked-question{
-	display: none;
-}
-
-#choices {
-	display: none;
+#start-button, #start-over{
+	background-color: #c5b358;
 	cursor: pointer;
 }
 
-#start {
-	background-color: #c5b358;
+.well {
+	background: #D6C98A;
+	border-style: solid;
+	border-color: #534e36;
 }
 
-#timer {
-	display: none;
-}
-
-
-
-.output{
-	display: none;
-}
-
-.content .reset{
-	display: none;
+#choices {
+	cursor: pointer;
 }
 

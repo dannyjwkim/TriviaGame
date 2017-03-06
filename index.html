@@ -10,30 +10,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">
 	
 </head>
+
+<audio autoplay loop id= "audio">
+	<source src="assets/audio/oscars.mp3" type="audio/mp3">
+</audio>
+
 <body>
 
 <div class="container">
 
 <div class="jumbotron content text-center">
 
+<div class="container well">
 	<h1>OSCARS TRIVIA</h1>
-  
-  <div class="well well-sm" id="timer">
-    <h2>Time Remaining: <span id="time-remaining">10</span></h2>
-  </div>
-
-	<div class="container well" id="question-container">
-
-		<button type="button" class="btn btn-secondary btn-lg btn-block" id="start"><h2>Start Game</h2></button>
-		
-	  <div class="well well-sm" id="asked-question"></div>
-	  
-	  <div class="well well-sm" id="choices"></div>
-
-  	<!-- <div class="well well-sm"><img src="assets/images/shrek.gif" alt="Cate Blanchett face"></div> -->
-
+	<div class="well well-sm" id="game-section">
+		<button id="start-button" type="button" class="btn btn-secondary btn-lg btn-block"><h2>Start Game</h2></button>
 	</div>
-
+</div>
 
 </div>
 
