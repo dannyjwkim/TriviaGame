@@ -35,7 +35,7 @@ $( document ).ready(function() {
     {
       question: "Which actor has the most Oscar nominations with 12?",
       choices: [ "Al Pacino", "Jack Nicholson", "Marlon Brando", "Robert DeNiro" ],
-      answer: "Jack Nicholson" + "<br>" + , 
+      answer: "Jack Nicholson"
       answerValue: "JackNicholson",
       image: "assets/images/jack.gif"
     },
