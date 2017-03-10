@@ -94,7 +94,7 @@ $( document ).ready(function() {
   function loadQuestion() {
     var current = questionAnswers[0];
     timer = setInterval(countDown, 1000);
-    count = 12;
+    count = 30;
     $("#game-section").html("<div id='timer'><h2>Time remaining: " + count + "</h2></div>");
     $("#game-section").append("<div id='question-section'></div>");
     $("#question-section").append("<h3 id='question'>" + current.question + "</h3></div>");
