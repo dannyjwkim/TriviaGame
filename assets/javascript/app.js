@@ -28,56 +28,56 @@ $( document ).ready(function() {
     {
       question: "Star Wars: The Force Awakens is the highest domestic grossing film of all time period. However, what movie is the highest domestic grossing film of all time - adjusted for inflation?",
       choices: [ "Gone With The Wind", "Star Wars: A New Hope", "The Sound of Music", "Titanic" ],
-      answer: "Gone With The Wind" + "<br>" + "Star Wars: The Force Awakens grossed $936.6 million in 2015, but only places 11th all-time" + "<br>" + "Titanic, The Sound of Music, and Star Wars: A New Hope are 5th, 3rd, and 2nd respectively" + "<br>" + "Gone With The Wind grossed nearly $200 million back in 1939, which would be about $1.75 billion today!",
+      answer: "Gone With The Wind" + "<br>" + "Star Wars: The Force Awakens grossed $936.6 million in 2015, but only places 11th all-time" + "<br>" + "Titanic, The Sound of Music, and Star Wars: A New Hope are 5th, 3rd, and 2nd respectively" + "<br>" + "Gone With The Wind grossed nearly $200 million back in 1939 - about $1.75 billion today!",
       answerValue: "GoneWithTheWind",
       image: "assets/images/wind.gif"
     },
     {
       question: "Which actor has the most Oscar nominations with 12?",
       choices: [ "Al Pacino", "Jack Nicholson", "Marlon Brando", "Robert DeNiro" ],
-      answer: "Jack Nicholson",
+      answer: "Jack Nicholson" + "<br>" + "Nicholson is also tied with Walter Brennan and Daniel Day-Lewis for the most Oscar wins by a male with 3" + "<br>" + "However they only needed 4 and 5 (respectively) nominations to get them" + "<br>" + 'So Nicholson is also the "losingest" actor in Oscar history',
       answerValue: "JackNicholson",
       image: "assets/images/jack.gif"
     },
     {
       question: "Which actress has the most Oscar wins with 4?",
       choices: [ "Jane Fonda", "Judi Dench", "Meryl Streep", "Katharine Hepburn" ],
-      answer: "Katharine Hepburn",
+      answer: "Katharine Hepburn" + "<br>" + "Hepburn won her first Oscar in 1933 and her record 4th nearly 50 years later in 1981" + "<br>" + "While Meryl Streep has the most nominations for any actor or actress with 20" + "<br>" + "However, she only has 3 wins to show for them",
       answerValue: "KatharineHepburn",
       image: "assets/images/hepburn.gif"
     },
     {
       question: "All of these films tied the record for most Oscar nominations (14), except for:",
       choices: [ "La La Land", "All About Eve", "Titanic", "Forrest Gump" ],
-      answer: "Forrest Gump",
+      answer: "Forrest Gump" + "<br>" + "Forrest Gump (1994) is one of 9 films to receive 13 nominations" + "<br>" + "Although La La Land (2016), All About Eve (1950), and Titanic (1997) all tied with 14; All About Eve's 14 nominations is a bit more meaningful because there were less categories back then",
       answerValue: "ForrestGump",
       image: "assets/images/gump.gif"
     },
     {
       question: "All of these films tied the record for most Oscar wins (11), except for:",
       choices: [ "West Side Story", "Titanic", "Ben-Hur", "The Lord of the Rings: The Return of the King" ],
-      answer: "West Side Story",
+      answer: "West Side Story" + "<br>" +"La La Land threatened to join this group, but only won 6 Oscars" + "<br>" + "Thus, although West Side Story couldn't join the top perch of 11 wins, it still handily has the most wins (10) for a musical",
       answerValue: "WestSideStory",
       image: "assets/images/west.gif"
     }, 
     {
       question: "Who is the only person to win an Oscar for playing a real-life Oscar winner?",
       choices: [ "Paul Newman", "Meryl Streep", "Cate Blanchett", "Elizabeth Taylor" ],
-      answer: "Cate Blanchett",
+      answer: "Cate Blancett" + "<br>" + "Cate Blanchett cemented her unique place in Oscar trivia when she won her first Oscar for her portrayal of Katharine Hepburn in the 2004 film, The Aviator",
       answerValue: "CateBlanchett",
       image: "assets/images/cate.gif"
     },
     {
       question: "Which Foreign Language Film holds the record for most Oscar nominations with 10?",
       choices: [ "Life is Beautiful", "Pan's Labyrinth", "Amour", "Crouching Tiger, Hidden Dragon" ],
-      answer: "Crouching Tiger, Hidden Dragon",
+      answer: "Crouching Tiger, Hidden Dragon" + "<br>" + "Crouching Tiger Hidden Dragon is one of only 5 films to have been nominated for both categories" + "<br>" + "Not surprisingly, it is also the first (and only) Mandarin film to be nominated for Best Picture",
       answerValue: "CrouchingTiger,HiddenDragon",
       image: "assets/images/crouching.gif"
     },
     {
       question: "Who is the only African-American woman to win an Oscar for Best Actress in a Leading Role?",
       choices: [ "Octavia Spencer", "Viola Davis", "Jennifer Hudson", "Halle Berry" ],
-      answer: "Halle Berry",
+      answer: "Halley Berry" + "<br>" + "All four are Oscar winners, however Halle Berry is still the only African-American woman to win an Oscar for a leading role",
       answerValue: "HalleBerry",
       image: "assets/images/halle.gif"
     },
@@ -94,7 +94,7 @@ $( document ).ready(function() {
   function loadQuestion() {
     var current = questionAnswers[0];
     timer = setInterval(countDown, 1000);
-    count = 20;
+    count = 12;
     $("#game-section").html("<div id='timer'><h2>Time remaining: " + count + "</h2></div>");
     $("#game-section").append("<div id='question-section'></div>");
     $("#question-section").append("<h3 id='question'>" + current.question + "</h3></div>");
